@@ -1,0 +1,263 @@
+/* ========== About Page (Modern Layout) ========== */
+.about-page {
+    font-family: 'Inter', 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f0f2f5;
+    min-height: 100vh;
+}
+
+.about-page > h1 {
+    color: #1877f2; /* Warna Facebook blue, jika ingin MUI bisa #3f51b5 */
+    margin-bottom: 20px;
+    font-size: 2.5em; /* Lebih besar */
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tagline {
+  font-size: 1.2em;
+  color: #555;
+  font-weight: 400;
+  margin: 10px auto 20px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.about-section {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  line-height: 1.8;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.about-section h2 {
+  color: #3f51b5;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e0e0e0;
+  padding: 20px;
+}
+
+.about-section p {
+  margin-bottom: 10px;
+  text-align: justify;
+  color: #444;
+  font-size: 1em;
+  padding: 0 20px 0 20px
+}
+
+.about-section p:last-child {
+  margin-bottom: 10;
+}
+
+.about-section strong {
+  font-weight: 600;
+  color: #222;
+}
+
+.about-image-section {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.about-page-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Specific Section Styles */
+.about-intro {
+  max-height: 300px;
+  width: 100%;
+  padding: 10px;
+}
+
+.about-mission {
+  margin-top: 0;
+}
+
+.about-cta {
+  text-align: center;
+  padding: 20px;
+  background-color: #e8f0fe;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  margin: 32px auto 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.about-cta h2 {
+  color: #3f51b5;
+  font-size: 1.6em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 0.5px;
+}
+
+.about-cta p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  text-align: justify;
+  color: #444;
+  font-size: 1em;
+  padding: 0 20px 0 20px
+}
+
+.about-cta-button {
+  background-color: white; 
+  color: #1877f2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); 
+  border: 2px solid #1877f2;
+}
+
+.about-cta-button:hover {
+  background-color: #1877f2;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about-login-button {
+  background-color: white; 
+  color: #04AA6D;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15); 
+  border: 2px solid #04AA6D;
+}
+
+.about-login-button:hover {
+  background-color: #04AA6D;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 600px) {
+  .about-cta {
+    padding: 24px 8px;
+    max-width: 100%;
+  }
+  .about-cta-button {
+    min-width: 120px;
+    margin: 8px 0;
+    width: 100%;
+  }
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .about-page {
+    padding: 80px 24px;
+  }
+  .about-page > h1 {
+    font-size: 3.5em;
+  }
+  .about-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .about-intro {
+    flex: 1 1 55%;
+    margin-right: 30px;
+  }
+  .about-image-section {
+    flex: 1 1 35%;
+    margin-right: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+  }
+  .about-mission {
+    flex: 1 1 100%;
+    margin-top: 40px;
+  }
+  .about-cta {
+    flex: 1 1 100%;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-page > h1 {
+    font-size: 4em;
+  }
+  .about-content {
+    max-width: 1200px;
+  }
+}
+
+/* Tombol */
+.btn.primary {
+  background-color: #3f51b5;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.05rem;
+  font-weight: 300;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  max-width: 300px;
+}
+
+.btn.primary:hover {
+  background-color: #303f9f;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
+}
+
+.btn.secondary {
+  background-color: #f1f1f1;
+  color: #555;
+  padding: 12px 25px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1.05rem;
+  font-weight: 300;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  max-width: 300px;
+}
+
+.btn.secondary:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}

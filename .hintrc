@@ -1,0 +1,20 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "min-height: auto",
+          "-moz-user-select",
+          "-webkit-user-drag",
+          "mix-blend-mode: plus-lighter",
+          "-ms-zoom"
+        ]
+      }
+    ],
+    "no-inline-styles": "off"
+  }
+}

@@ -1,0 +1,117 @@
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.brand-name {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #3f51b5;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.navigation-drawer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: transparent;
+  box-shadow: none;
+  transform: translateX(0);
+  position: static;
+  width: auto;
+  padding: 0;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+#navlist-main,
+#navlist {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  padding: 0;
+  margin: 0;
+}
+
+#navlist-main li,
+#navlist li {
+  display: flex;
+  align-items: center;
+}
+
+#navlist-main li a,
+#navlist li a {
+  text-decoration: none;
+  color: #5f6368;
+  font-size: 0.9em;
+  font-weight: 500;
+  padding: 8px 8px;
+  border-radius: 5px;
+  transition: background 0.2s, color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-transform: uppercase;
+}
+
+#navlist-main li a:hover,
+#navlist li a:hover {
+  background-color: rgba(63, 81, 181, 0.08);
+  color: #3f51b5;
+}
+
+.push-notification-tools {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.subscribe-button,
+.unsubscribe-button {
+  padding: 8px 18px;
+  font-size: 0.9em;
+  font-weight: 500;
+  border: 1px solid #3f51b5;
+  border-radius: 5px;
+  background: #fff;
+  color: #3f51b5;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-transform: uppercase;
+}
+
+.subscribe-button:hover,
+.unsubscribe-button:hover {
+  background: rgba(63, 81, 181, 0.04);
+  color: #3f51b5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
