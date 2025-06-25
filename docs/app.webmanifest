@@ -1,0 +1,63 @@
+{
+    "id": "/",
+    "start_url": "/#/",
+    "scope": "/",
+    "name": "StoryHub App",
+    "short_name": "StoryHub",
+    "description": "Story Hub adalah platform inovatif yang memungkinkan pengguna untuk berbagi dan menjelajahi berbagai story menarik dari seluruh dunia. <br> Misi kami adalah untuk menghubungkan orang-orang melalui narasi yang kuat dan beragam, menciptakan ruang di mana setiap cerita memiliki kesempatan untuk didengar. <br> Dengan antarmuka yang sederhana dan intuitif, Anda dapat dengan mudah mengunggah story Anda sendiri, berinteraksi dengan cerita orang lain, dan menemukan konten baru yang akan menginspirasi dan menghibur Anda.<br> Kami berkomitmen untuk terus mengembangkan Story Hub dengan fitur-fitur baru dan menarik, serta menjaga komunitas yang positif dan suportif bagi semua pengguna.",
+    "display": "standalone",
+    "background_color": "#FFFFFF",
+    "icons": [
+        {
+            "src": "images/icons/icon-x144.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "any"
+        },
+        {
+            "src": "images/icons/maskable-icon-x48.png",
+            "type": "image/png",
+            "sizes": "48x48",
+            "purpose": "maskable"
+        },
+        {
+            "src": "images/icons/icon-x96.png",
+            "type": "image/png",
+            "sizes": "96x96",
+            "purpose": "maskable"
+        },
+        {
+            "src": "images/icons/icon-x384.png",
+            "type": "image/png",
+            "sizes": "384x384",
+            "purpose": "maskable"
+        },
+        {
+            "src": "images/icons/icon-x512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Tambah Story Baru",
+            "short_name": "Tambah Story",
+            "description": "Buka halaman tambah story baru",
+            "url": "/#/new-story",
+            "icons": [{ "src": "images/icons/icon-x96.png", "sizes": "96x96" }]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "images/screenshots/screenshot-desktop.png",
+            "sizes": "1280x800",
+            "type": "image/png"
+        },
+        {
+            "src": "images/screenshots/screenshot-mobile.png",
+            "sizes": "375x812",
+            "type": "image/png"
+        }
+    ]
+}
