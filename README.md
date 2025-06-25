@@ -4,7 +4,7 @@
 - I'm looking to collaborate on CityCare App project
 - How to reach me on
 <a href="https://www.instagram.com/tiartha.systems/" target="_blank">Instagram</a>,
-<a href="https://www.linkedin.com/in/igusti-agung-sugihartha/" target="_blank">LinkedIn</a>, and
+<a href="https://www.linkedin.com/in/igusti-agung-sugihartha/" target="_blank">LinkedIn</a>
  
 <!---
 tiartha-codes is a ✨ special ✨ repository because its README.md (this file) appears on your GitHub profile.
